@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.woff?7tqjw2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"],
+.drop-arrow:before,
+.wrapper-under-arrow:before,
+.splide__arrow:before,
+.slide-content:before,
+.column-1 li:first-child:before,
+.column-1 li:nth-child(2):before,
+.column-1 li:last-child:before,
+.column-2 li:first-child:before,
+.column-2 li:nth-child(2):before,
+.column-2 li:last-child:before,
+.question span:before,
+.answers a span:before,
+.title-news a span:before,
+.instagram:before,
+.youtube:before,
+.facebook:before, {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-users:before {
+  content: "\e909";
+}
+.icon-user:before {
+  content: "\e90a";
+}
+.icon-flag:before {
+  content: "\e905";
+}
+.icon-arrow-drop:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-arrow-active:before {
+  content: "\e900";
+  color: #ff5722;
+}
+.icon-arrow-drop:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-arrow-not-active:before {
+  content: "\e902";
+  color: #9a9a9a;
+}
+.icon-circus-1:before {
+  content: "\e903";
+  color: #10375c;
+}
+.icon-Facebook:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-Instagram-filled:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-meeting-room-1:before {
+  content: "\e907";
+  color: #10375c;
+}
+.icon-Rectangle-1:before {
+  content: "\e908";
+}
+.icon-wifi-1:before {
+  content: "\e90b";
+  color: #10375c;
+}
+.icon-youtube-play:before {
+  content: "\f16a";
+}

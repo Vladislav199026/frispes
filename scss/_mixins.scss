@@ -1,0 +1,24 @@
+@mixin size($height, $width){
+    height: $height;
+    width: $width;
+}
+@mixin positionTopRight($Top, $Right){
+    top: $Top;
+    right: $Right;
+}
+@mixin positionTopLeft($Top, $Left){
+    top: $Top;
+    left: $Left;
+}
+@mixin positionBottomLeft($Bottom, $Left){
+    bottom: $Bottom;
+    left: $Left;
+}
+@mixin positionBottomRight($Bottom, $Right){
+    bottom: $Bottom;
+    right: $Right;
+}
+@mixin displayPos($Display, $Position){
+    display: $Display;
+    position: $Position;
+}
